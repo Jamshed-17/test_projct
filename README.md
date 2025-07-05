@@ -19,17 +19,21 @@
 ### Примеры команд:
 Фильтрация по цене (>500):
 ```python3 main.py -f data.csv -w "price>500"```
-![[Pasted image 20250705182714.png]]
+<br>
+<img src="Pasted image 20250705182714.png" width=500></img>
 
 
 Средний рейтинг:
 ```python3 main.py -f data.csv -a "avg=rating"```
-![[Pasted image 20250705182730.png]]
+<br>
+<img src="Pasted image 20250705182730.png" width=500></img>
+
 
 
 Максимальная цена у Xiaomi:
 ```python3 main.py -f data.csv -w "brand=xiaomi" -a "max=price"```
-![[Pasted image 20250705182740.png]]
+<br>
+<img src="Pasted image 20250705182740.png" width=500></img>
 
 ## Тестирование
 Запуск тестов:

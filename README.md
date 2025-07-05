@@ -19,17 +19,15 @@
 ### Примеры команд:
 Фильтрация по цене (>500):
 ```python3 main.py -f data.csv -w "price>500"```
-![[https://iimg.su/i/vprSj1]]
-
+![1](https://iimg.su/i/vprSj1)
 
 Средний рейтинг:
 ```python3 main.py -f data.csv -a "avg=rating"```
-![[https://iimg.su/i/nOlINq]]
-
+![2](https://iimg.su/i/nOlINq)
 
 Максимальная цена у Xiaomi:
 ```python3 main.py -f data.csv -w "brand=xiaomi" -a "max=price"```
-![[https://iimg.su/i/E4rXvQ]]
+![3](https://iimg.su/i/E4rXvQ)
 
 ## Тестирование
 Запуск тестов:
